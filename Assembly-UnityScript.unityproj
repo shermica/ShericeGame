@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{83A9E8A4-1C7E-19D2-FFC6-66D8A6176466}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>G:/UNITY/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>G:/UNITY/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\ChaseLevelScript\BombGenerator.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\BulletShotGenerator.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\CameraController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\CoinController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\CoinGenerator.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\GrenadeController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\GrenadeGenerator.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\HealthPackController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\HealthPackGenerator.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\PoliceBombController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\PoliceBulletController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\PoliceCarController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\RedVanBulletController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\RedVanController.js" />
+     <Compile Include="Assets\Scripts\ChaseLevelScript\RoadController.js" />
+     <Compile Include="Assets\Scripts\FindTheKillerScripts\BackButton.js" />
+     <Compile Include="Assets\Scripts\FindTheKillerScripts\Guilty1.js" />
+     <Compile Include="Assets\Scripts\FindTheKillerScripts\Guilty2.js" />
+     <Compile Include="Assets\Scripts\FindTheKillerScripts\Guilty3.js" />
+     <Compile Include="Assets\Scripts\FindTheKillerScripts\Profile1.js" />
+     <Compile Include="Assets\Scripts\FindTheKillerScripts\Profile2.js" />
+     <Compile Include="Assets\Scripts\FindTheKillerScripts\Profile3.js" />
+     <Compile Include="Assets\Scripts\Level1Scripts\BulletController.js" />
+     <Compile Include="Assets\Scripts\Level1Scripts\FingerPrintController.js" />
+     <Compile Include="Assets\Scripts\Level1Scripts\GloveController.js" />
+     <Compile Include="Assets\Scripts\Level1Scripts\HandBagController.js" />
+     <Compile Include="Assets\Scripts\Level1Scripts\KnifeController.js" />
+     <Compile Include="Assets\Scripts\Level1Scripts\WalletController.js" />
+     <Compile Include="Assets\Scripts\Level1Scripts\WinScript.js" />
+     <Compile Include="Assets\Scripts\Level1Scripts\WrongObject.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\ButtonController.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\CigaretteController.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\CushionController.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\FlowersController.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\FootprintController.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\LanternController.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\NecklaceController.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\TypewriterController.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\WinLv2Script.js" />
+     <Compile Include="Assets\Scripts\Level2Scripts\WrongObject1.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\BirdSilhouetteController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\CigarController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\DangerSignController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\DiceController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\FleurDeLisController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\HourGlassController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\OpenSignController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\PillController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\SevenController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\SpadeController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\TieController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\WinLv3Script.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\WomanSignController.js" />
+     <Compile Include="Assets\Scripts\Level3Scripts\WrongObject2.js" />
+     <Compile Include="Assets\Scripts\MainMenuScript\BackToMenu.js" />
+     <Compile Include="Assets\Scripts\MainMenuScript\Menu.js" />
+     <Compile Include="Assets\Scripts\MainMenuScript\NewGame.js" />
+     <Compile Include="Assets\Scripts\MainMenuScript\QuitGame.js" />
+     <Compile Include="Assets\Scripts\ScoreScript\Score.js" />
+     <Compile Include="Assets\Scripts\SoundScript\MusicGenerator.js" />
+     <Compile Include="Assets\Scripts\SoundScript\backgroundMusic.js" />
+     <Compile Include="Assets\Scripts\StartButtonScript\GameOverButton.js" />
+     <Compile Include="Assets\Scripts\StartButtonScript\PauseGame.js" />
+     <Compile Include="Assets\Scripts\StartButtonScript\StartButtonChaseLv.js" />
+     <Compile Include="Assets\Scripts\StartButtonScript\StartButtonLv1.js" />
+     <Compile Include="Assets\Scripts\StartButtonScript\StartButtonLv2.js" />
+     <Compile Include="Assets\Scripts\StartButtonScript\StartButtonLv3.js" />
+     <Compile Include="Assets\Scripts\TimerScript\TimerLv1.js" />
+     <Compile Include="Assets\Scripts\TimerScript\TimerLv2.js" />
+     <Compile Include="Assets\Scripts\TimerScript\TimerLv3.js" />
+     <Compile Include="Assets\Scripts\TimerScript\TimerPUController.js" />
+     <Compile Include="Assets\Scripts\TimerScript\TimerPUGen.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
